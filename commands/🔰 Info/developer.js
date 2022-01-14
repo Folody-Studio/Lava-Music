@@ -14,7 +14,7 @@ const {
 module.exports = {
   name: "developer",
   category: "🔰 Info",
-  aliases: ["dev", "tomato"],
+  aliases: ["dev", "devinfo"],
   description: "Shows Information about the Developer",
   usage: "developer",
   type: "bot",
@@ -26,11 +26,11 @@ module.exports = {
     message.reply({
       embeds: [new MessageEmbed()
         .setColor(es.color)
-        .setFooter(es.footertext + " | Sponsor: Bittmax.de | Code  'x10'  == -5%", es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL())
+        .setFooter(es.footertext + " | Sponsor: Eleina Team | Proctect by Xlabit and CKBOT Network", es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL())
         .setTimestamp()
         .setThumbnail("https://cdn.discordapp.com/avatars/442355791412854784/df7b527a701d9a1ab6d73213576fe295.webp?size=1024")
         .setTitle(client.la[ls].cmds.info.developer.title)
-        .setURL("https://milrato.dev")
+        .setURL("https://nezukobot.vn")
         .setDescription(client.la[ls].cmds.info.developer.description)
       ],
       components: allbuttons
