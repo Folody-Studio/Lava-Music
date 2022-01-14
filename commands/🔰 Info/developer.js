@@ -28,7 +28,7 @@ module.exports = {
         .setColor(es.color)
         .setFooter(es.footertext + " | Sponsor: Eleina Team | Proctect by Xlabit and CKBOT Network", es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL())
         .setTimestamp()
-        .setThumbnail("https://cdn.discordapp.com/avatars/442355791412854784/df7b527a701d9a1ab6d73213576fe295.webp?size=1024")
+        .setThumbnail("https://cdn.discordapp.com/avatars/784729115680964618/df7b527a701d9a1ab6d73213576fe295.webp?size=1024")
         .setTitle(client.la[ls].cmds.info.developer.title)
         .setURL("https://nezukobot.vn")
         .setDescription(client.la[ls].cmds.info.developer.description)
@@ -40,7 +40,7 @@ module.exports = {
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
+ * Bot Coded by devgade#4827 | https://dsc.gg/rbdiscordh
  * @INFO
  * Work for Milrato Development | https://milrato.dev
  * @INFO
